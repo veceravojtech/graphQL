@@ -1,3 +1,3 @@
-# qraphQL
+# graphQL
 
 test repository
