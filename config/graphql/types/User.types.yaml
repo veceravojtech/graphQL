@@ -1,0 +1,14 @@
+User:
+    type: object
+    config:
+        description: "User Type"
+        fields:
+            id:
+                type: "String"
+                description: "User ID"
+            email:
+                type: "String"
+                description: "UserEmail"
+            token:
+                type: "String"
+                description: "Login token"

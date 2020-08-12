@@ -1,0 +1,13 @@
+ProjectUpdateInput:
+    type: input-object
+    config:
+        fields:
+            id:
+                type: "String"
+                description: "UUID from project"
+            name:
+                type: "String"
+                description: "name from project"
+            description:
+                type: "String"
+                description: "description from project"

@@ -1,0 +1,20 @@
+Query:
+    type: object
+    config:
+        description: "Main Query"
+        fields:
+            user:
+                type: "User"
+                args:
+                    id:
+                        description: "Get user by ID"
+                        type: "String"
+                resolve: "@=resolver('User', [args])"
+            me:
+                args:
+                type: "Me"
+                resolve: "@=resolver('Me')"
+            project:
+                args:
+                type: "Project"
+                resolve: "@=resolver('Project')"

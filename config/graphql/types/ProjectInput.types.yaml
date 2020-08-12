@@ -1,0 +1,7 @@
+ProjectInput:
+    type: input-object
+    config:
+        fields:
+            id:
+                type: "String"
+                description: "UUID from project"

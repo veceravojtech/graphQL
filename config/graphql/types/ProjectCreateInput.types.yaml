@@ -1,0 +1,10 @@
+ProjectCreateInput:
+    type: input-object
+    config:
+        fields:
+            name:
+                type: "String"
+                description: "name from project"
+            description:
+                type: "String"
+                description: "description from project"

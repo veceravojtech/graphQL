@@ -1,0 +1,14 @@
+Project:
+    type: object
+    config:
+        description: "Project Type"
+        fields:
+            id:
+                type: "String"
+                description: "UUID of project"
+            name:
+                type: "String"
+                description: "name"
+            description:
+                type: "String"
+                description: "description"
